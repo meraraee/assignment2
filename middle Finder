@@ -1,0 +1,62 @@
+function middleFinder() {
+    // Move to the right until reaching the end of the row (15 steps)
+    //To check the width of the table, finding out the middle
+    move();
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move();
+    move(); 
+    
+    //turns around and returns to starting point
+    turnAround();
+    move();
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move();
+    move(); 
+    
+    //moves up one row
+    turnRight();
+    move();
+    
+    //moves up to the middle table
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+  
+  //turns right and goes in the middle 
+  turnRight();
+   move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move(); 
+    move();  
+   putBeeper();
+   
+}
+function main(){
+   middleFinder();
+}
