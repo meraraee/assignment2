@@ -1,7 +1,7 @@
 Author: Merary Murillo 
 Project: Rock, Paper, Scissors Game. 
 
-recording: https://youtu.be/V8yEiTfNt9o 
+recording: (https://youtu.be/V8yEiTfNt9o)
 
 #include <iostream>
 #include <cstdlib>
